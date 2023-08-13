@@ -1,0 +1,12 @@
+.Exercise13 {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .Exercise13 .productInfo {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
