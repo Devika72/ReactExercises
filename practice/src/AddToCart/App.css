@@ -1,0 +1,15 @@
+
+.Exercise7 {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .Exercise7 ul {
+    list-style: none;
+  }
+  .Exercise7 li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
