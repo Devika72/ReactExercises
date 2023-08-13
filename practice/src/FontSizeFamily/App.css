@@ -1,0 +1,28 @@
+ .Exercise6 {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid;
+    padding: 1rem;
+  }
+  .Exercise6 input {
+    margin-top: 1rem;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+  }
+  .Exercise6 select {
+    margin-top: 1rem;
+  }
+  .Exercise6 .App {
+    font-family: sans-serif;
+    padding: 1rem;
+  }
+  .Exercise6 button {
+    margin-top: 1rem;
+  }
+  .Exercise6 .info {
+    margin-top: 0.5rem;
+    border: 2px solid slateblue;
+  }
+  
