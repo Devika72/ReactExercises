@@ -1,0 +1,21 @@
+.Exercise12 {
+    font-family: sans-serif;
+    margin: auto;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .Exercise12 h1 {
+    text-align: center;
+  }
+  .Exercise12 ul {
+    list-style: none;
+  }
+  
+  .Exercise12 li {
+    border: 1px solid;
+    margin: 1rem;
+    padding: 1rem;
+    background: rgb(228, 227, 227);
+  }
+  
