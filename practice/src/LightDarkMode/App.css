@@ -1,0 +1,57 @@
+.Exercise11 {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 1rem 0;
+    border: 1px solid;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  
+  .Exercise11 .checkboxLabel {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 30px;
+    border-radius: 1rem;
+    margin: auto;
+  }
+  .Exercise11 .checkboxInput {
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
+  .Exercise11 span.checkbox {
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 50px;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 1rem;
+    transition: 400ms ease-in;
+    background-color: rgb(219, 219, 219);
+  }
+  .Exercise11 span.checkbox::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 0;
+    display: block;
+    width: 29px;
+    height: 29px;
+    border-radius: 50%;
+    background-color: rgb(53, 53, 53);
+    transition: 400ms;
+  }
+  .Exercise11 input.checkboxInput:checked + .checkbox::before {
+    transform: translateX(20px);
+    background-color: rgb(219, 219, 219);
+  }
+  .Exercise11 input.checkboxInput:checked + span.checkbox {
+    background-color: rgb(53, 53, 53);
+  }
+  
